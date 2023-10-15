@@ -1,0 +1,56 @@
+.mainDivN{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    background:rgba(0,0,255,0.1);
+    padding:64px;
+    display:flex;
+    width:600px;
+    margin:auto;
+    border-radius:8px;
+}
+
+.usernameN{
+    flex: 1 0 500px;
+    padding:8px;
+    outline:none;
+    border-radius:8px;
+    border:none;
+}
+.passwordN{
+    flex: 1 0 500px;
+    padding:8px;
+    outline:none;
+    border-radius:8px;
+    border:none;
+}
+.emailN{
+    flex: 1 0 500px;
+    padding:8px;
+    outline:none;
+    border-radius:8px;
+    border:none;
+}
+.phoneN{
+    flex: 1 0 500px;
+    padding:8px;
+    outline:none;
+    border-radius:8px;
+    border:none;
+}
+.buttonN{
+    flex: 1 0 250px;
+    
+    padding:8px;
+    outline:none; 
+    border-radius:8px; 
+    border:none;
+    transition: 0.2s;
+}
+.buttonN:hover{
+    background: #7f58ff5d;
+    color: white;
+}
+.buttonN:active{
+    background: #b098ff5d;
+}

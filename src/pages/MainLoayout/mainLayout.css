@@ -1,0 +1,98 @@
+
+.mainDiv{
+    width:80%; 
+    min-height: calc(100% - 64px); 
+    display:flex; 
+    flex-direction:column; 
+    align-items:center;
+    margin: auto;
+/*     
+    background:rgba(0,0,255,0.1); */
+    padding-top: 64px;
+}
+.numberInput{
+    padding: 8px;
+    padding-left: 16px;
+    width: calc(600px - 180px);
+    outline: none;
+    border-radius: 0;
+    border-right: none;
+    /* background: #cfc6ff; */
+    border: none;
+}
+
+.submitButton{
+    padding: 8px;
+    border-radius: 0px 8px 8px 0px;
+    width: 78px;
+    outline:none;
+    border:none;
+    transition: 0.2s;
+}
+.submitButton:hover{
+    background: #7f58ff5d;
+    color: white;
+}
+.submitButton:active{
+    background: #b098ff5d;
+}
+.loginButton{
+    padding: 8px;
+    border-radius: 8px 0px 0px 8px;
+    width: 78px;
+    outline:none;
+    border:none;
+    transition: 0.2s;
+}
+.loginButton:hover{
+    background: #7f58ff5d;
+    color: white;
+}
+.loginButton:active{
+    background: #b098ff5d;
+}
+.username, .count{
+    font-size: 1.5rem;
+}
+
+.username{
+    /* font-weight: bold; */
+}
+
+.downInput{
+    padding: 8px;
+    padding-left: 16px;
+    width: 100%;
+    outline: none;
+    border-radius: 8px 0 0 8px;
+    border-right: none;
+    /* background: #cfc6ff; */
+    border: none;
+}
+
+ul{
+    list-style: none;
+    width: 600px;
+    padding: 0;
+}
+li > div {
+    padding: 16px;
+    border-bottom: 1px solid rgb(245, 245, 255);
+    /* display: flex;
+    justify-content: space-between; */
+}
+.createBtn{
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    transition: 0.2s;
+    outline:none;
+    border:none;
+}
+.createBtn:hover{
+    background: #7f58ff5d;
+    color: white;
+}
+.createBtn:active{
+    background: #b098ff5d;
+}
